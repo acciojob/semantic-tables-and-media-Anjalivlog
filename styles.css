@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+table {
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	margin-bottom: 20px;
+}
+table th, td {
+	border: 1px solid black;
+	text-align: left;
+	padding: 10px;
+}
+th {
+    background-color: #f2f2f2;
+}
+.media-list {
+    margin-top: 20px;
+	list-style-type: none;
+}
+.media-item {
+    margin-bottom: 20px;
+}
+.media-item img,
+.media-item video {
+    width: 400px;
+}
